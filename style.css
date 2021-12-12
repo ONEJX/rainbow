@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.rainbow{
+    height: 500px;
+    overflow: hidden;
+}
+.rainbow div{
+    overflow: hidden;
+}
+.rainbow>div{
+    width: 1000px;
+    height: 1000px;
+    background-color: red;
+    border-radius: 50%;
+}
+.rainbow>div>div{
+    background: hsl(60, 80%, 50%);
+    height: 980px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.rainbow>div>div>div{
+    background: hsl(120, 80%, 50%);
+    height: 960px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.rainbow>div>div>div>div{
+    background: hsl(180, 80%, 50%);
+    height: 940px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.rainbow>div>div>div>div>div{
+    background: hsl(240, 80%, 50%);
+    height: 920px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.rainbow>div>div>div>div>div>div{
+    background: hsl(300, 80%, 50%);
+    height: 900px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.rainbow>div>div>div>div>div>div>div{
+    background: hsl(360, 80%, 50%);
+    height: 880px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.rainbow>div>div>div>div>div>div>div>div{
+    background-color: white;
+    height: 860px;
+    margin: 10px;
+    border-radius: 50%;
+}
